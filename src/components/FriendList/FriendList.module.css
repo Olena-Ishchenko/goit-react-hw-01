@@ -10,23 +10,3 @@
   width: 300px;
   padding: 15px;
 }
-
-.friendAvatar {
-  margin-bottom: 30px;
-}
-
-.friendName {
-  font-size: 50px;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
-.friendOn {
-  font-size: 30px;
-  color: green;
-}
-
-.friendOff {
-  font-size: 30px;
-  color: red;
-}

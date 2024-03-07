@@ -1,3 +1,4 @@
+import FriendListItem from '../FriendListItem/FriendListItem';
 import css from './FriendList.module.css';
 const FriendList = ({ friends }) => {
   return (
@@ -14,20 +15,6 @@ const FriendList = ({ friends }) => {
         );
       })}
     </ul>
-  );
-};
-
-const FriendListItem = ({ avatar, name, isOnline }) => {
-  return (
-    <div>
-      <img className={css.friendAvatar} src={avatar} alt="Avatar" width="148" />
-      <p className={css.friendName}>{name}</p>
-      {isOnline ? (
-        <p className={css.friendOn}>Online</p>
-      ) : (
-        <p className={css.friendOff}>Offline</p>
-      )}
-    </div>
   );
 };
 
